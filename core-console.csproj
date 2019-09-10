@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>core_console</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageRefernece Include="System.Runtime.Serialization.Json" Version="4.3.0"></PackageRefernece>
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+  </ItemGroup>
+</Project>
